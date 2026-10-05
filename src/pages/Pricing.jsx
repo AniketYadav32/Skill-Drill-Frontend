@@ -6,7 +6,6 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { setUserData } from "../redux/userSlice";
 import { ServerUrl } from "../App";
-//const serverUrl = import.meta.env.VITE_SERVER_URL;
 
 const Pricing = () => {
   const navigate = useNavigate();

@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";

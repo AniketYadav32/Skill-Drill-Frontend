@@ -1,4 +1,3 @@
-
 const SkeletonCard = () => {
   return (
     <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border border-gray-200 dark:border-gray-700 animate-pulse">

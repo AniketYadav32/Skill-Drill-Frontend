@@ -7,7 +7,6 @@ import axios from 'axios'
 import {BsArrowRight} from 'react-icons/bs'
 import { ServerUrl } from "../App.jsx"; 
 
-//const serverUrl = import.meta.env.VITE_SERVER_URL;
 
 
 const Step2Interview = ({interviewData, onFinish}) => {

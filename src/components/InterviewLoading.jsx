@@ -1,4 +1,3 @@
-
 import { BsRobot } from "react-icons/bs";
 
 const InterviewLoading = () => {

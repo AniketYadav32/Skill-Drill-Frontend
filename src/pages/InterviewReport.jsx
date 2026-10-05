@@ -1,8 +1,8 @@
 import {useEffect,useState} from 'react'
 import {useParams} from 'react-router-dom';
 import axios from 'axios';
-const serverUrl = import.meta.env.VITE_SERVER_URL;
 import Step3Report from '../components/Step3Report'
+import { ServerUrl } from '../App';
 
 const InterviewReport = () => {
   const [report, setReport] = useState(null);
@@ -11,7 +11,7 @@ const InterviewReport = () => {
   useEffect(()=>{
     const fetchReport = async () => {
     try {
-      const result = await axios.get(serverUrl + '/api/interview/report/' + id, {withCredentials:true})
+      const result = await axios.get(ServerUrl + '/api/interview/report/' + id, {withCredentials:true})
       setReport(result.data)
     } catch (error) {
       console.log(error)

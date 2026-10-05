@@ -6,7 +6,6 @@ import SkeletonCard from "../components/SkeletonCard";
 import { FaTrash } from "react-icons/fa";
 import { ServerUrl } from "../App";
 
-//const serverUrl = import.meta.env.VITE_SERVER_URL;
 
 const InterviewHistory = () => {
   const [interviews, setInterviews] = useState([]);
