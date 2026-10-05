@@ -11,7 +11,7 @@ import InterviewHistory from "./pages/InterviewHistory";
 import InterviewReport from "./pages/InterviewReport";
 import Pricing from "./pages/Pricing";
 
-export const ServerUrl = "https://skill-drill-backend.onrender.com/";
+export const ServerUrl = "https://skill-drill-backend.onrender.com";
 
 function App() {
   const dispatch = useDispatch();
